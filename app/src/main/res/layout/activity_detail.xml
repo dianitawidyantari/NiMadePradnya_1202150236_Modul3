@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.widya.nimadepradnyadw_1202150236_modul3.DetailActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <ImageView
+        android:id="@+id/foto"
+        android:layout_width="wrap_content"
+        android:layout_height="97dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/amidis" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/merkminuman"
+        android:layout_gravity="left"
+        android:text="Merk"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/deskripsimerk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:scaleType="fitXY"
+        android:id="@+id/isigalon"
+        android:src="@drawable/ic_galon"
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:onClick="berkurang"
+            android:layout_gravity="center_vertical"
+            android:text="-"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <TextView
+            android:text="20 Liter"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/literair"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:onClick="bertambah"
+            android:layout_gravity="center_vertical"
+            android:text="+"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+
+
+
+
